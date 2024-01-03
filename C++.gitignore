@@ -31,7 +31,12 @@
 *.out
 *.app
 
-.idea/
-cmake-build-debug/
-cmake-build-release/
-
+.idea/*
+cmake-build*/*
+cmake-build-debug/*
+cmake-build-debug-mingw/*
+cmake-build-debug-visual-studio/*
+cmake-build-release/*
+cmake-build-release-mingw/*
+cmake-build-release-visual-studio/*
+resources/*
